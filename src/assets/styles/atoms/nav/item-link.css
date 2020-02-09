@@ -1,0 +1,8 @@
+.navigation__links__item-link{
+    font-family: montserrat-light;
+    font-size: 1.1em;
+}
+.navigation__links__item-link a{
+    text-decoration: none;
+    color: white;
+}

@@ -5,26 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Douglas W.</title>
+    
+    <!-- CSS imports -->
+    <link rel="stylesheet" href="./assets/styles/helpers/reset.css">
+    <link rel="stylesheet" href="./assets/styles/helpers/fonts.css">
+    <link rel="stylesheet" href="./assets/styles/templates/index.css">
+
 </head>
 <body>
 
     <div class="container">
         <nav class="navigation">
 
-            <img src="" alt="">
-                <ul>
-                    <li>
+            <img class="logo-profile-photo small" src="./assets/images/image/logo.png" alt="profile photo">
+                <ul class="navigation__links">
+                    <li class="navigation__links__item-link">
                         <a href="#">
                             Quem sou
                         </a>
                     </li>
-                    <li>
+                    <li class="navigation__links__item-link">
                         <a href="#">
                             Projetos
                         </a>
                     </li>
 
-                    <li>
+                    <li class="navigation__links__item-link">
                         <a href="#">
                             Contato
                         </a>
@@ -34,28 +40,28 @@
         </nav>
 
         <aside class="aside">
-            <img src="" alt="">
+            <img class="logo-profile-photo medium" src="./assets/images/image/aside-photo.png" alt="photo profile">
             <div>
 
-                <h1>Douglas Walas</h1>
-                <p>FullStack Developer Jr</p>
-                <p>douglas.skd@gmail.com</p>
+                <h1 class="person-name">Douglas Walas</h1>
+                <p class="person-details">FullStack Developer Jr</p>
+                <p class="person-details">douglas.skd@gmail.com</p>
             </div>
         
-            <ul>
-                <li>
-                    <a href="">
-                        <img src="" alt="">
+            <ul class="aside__social-icon-list">
+                <li >
+                    <a href="https://www.github.com/DWRP">
+                        <img class="aside__social-icon-list__social-icon-item" src="./assets/images/icons/github-logo.svg" alt="Github logo">
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <img src="" alt="">
+                <li >
+                    <a href="#0">
+                        <img class="aside__social-icon-list__social-icon-item" src="./assets/images/icons/medium-logo.svg" alt="medium logo">
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <img src="" alt="">
+                <li >
+                    <a href="#0">
+                        <img class="aside__social-icon-list__social-icon-item" src="./assets/images/icons/twitter-logo.svg" alt="twitter logo">
                     </a>
                 </li>
             </ul>
@@ -65,10 +71,10 @@
         <main class="main">
 
             <section class="main__about">
-                <img src="" alt="">
-                <div>
-                    <h2>Quem sou</h2>
-                    <p>
+                <img class="logo-profile-photo big" src="./assets/images/image/profile-photo.png" alt="photo profile">
+                <div class="description-block">
+                    <h2 class="main__title">Quem sou</h2>
+                    <p class="main__description">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Nostrum, voluptates soluta sed veniam autem tenetur libero, 
                         dolores deserunt nulla quidem enim repellendus beatae suscipit 
@@ -85,26 +91,27 @@
 
             <section class="main__projects">
                 
-                <h2>Projetos</h2>
+                <h2 class="main__title">Projetos</h2>
                 <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img  src="" alt="">
+                    <img  src="" alt="">
+                    <img  src="" alt="">
+                    <img  src="" alt="">
+                    <img  src="" alt="">
                 </div>
 
             </section>
 
             <section class="main__contact">
-                <h2>Contato</h2>
-                <p>Gostou? Entre em contato e tire suas dúvidas</p>
+                <h2 class="main__title">Contato</h2>
+                <p class="main__description">Gostou? Entre em contato e tire suas dúvidas</p>
                 <form action="">
                     
-                    <label for="name">
+                    <label class="label" for="name">
                         Nome completo:
                     </label>
                     <input 
+                        class="input"
                         type="text" 
                         name="name" 
                         id="name" 
@@ -112,26 +119,28 @@
                     >
                     
 
-                    <label for="email">
+                    <label class="label" for="email">
                         Email
                     </label>
-                    <input 
+                    <input
+                        class="input"
                         type="email" 
                         name="email" 
                         id="email" 
                         placeholder="Insira um email válido"
                     >
 
-                    <label for="subject">
+                    <label class="label" for="subject">
                         Assunto
                     </label>
-                    <input 
+                    <input
+                        class="input"
                         type="text" 
                         name="subject" 
                         id="subject"
                         placeholder="Insira o assunto"
                     >
-                    <label for="message">
+                    <label class="label" for="message">
                         Mensagem
                     </label>
                     <textarea 
@@ -142,13 +151,18 @@
                         placeholder="Digite a sua menssagem"
                     >
                     </textarea>
-
+                    <button 
+                        class="button" 
+                        type="submit"
+                    >
+                        Enviar
+                    </button>
                 </form>
             </section>
         </main>
 
         <footer class="footer">
-            <h3>
+            <h3 class="footer__subtitle">
                 Copyright ©2020 Douglas Walas
             </h3>
         </footer>
