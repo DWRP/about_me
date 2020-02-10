@@ -1,0 +1,11 @@
+.button{
+    border:none;
+    font-family: montserrat-medium;
+    font-size: 1.2em;
+    border-radius:8px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(4, 161, 161);
+    color: #FFD;
+    text-shadow: -1.3px 1.3px 1px #000;
+}

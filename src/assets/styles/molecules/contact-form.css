@@ -1,5 +1,7 @@
-.aside__social-icon-list{
+.main__contact__form{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }

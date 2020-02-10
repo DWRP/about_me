@@ -1,4 +1,7 @@
 .main{
     grid-area: main;
-    padding: 20px;
+    padding: 20px 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+    
 }
